@@ -143,7 +143,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 
-
-
-import django_heroku 
+import django_heroku
 django_heroku.settings(locals())
